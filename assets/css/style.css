@@ -51,6 +51,7 @@ h3 {
     align-items: center;
     max-width: 80rem;
     margin: 0 auto;
+    padding: 2rem;
   }
   
   .container > * {
@@ -130,5 +131,13 @@ h3 {
   
   .choice-text {
     padding: 1.5rem;
+    width: 100%;
   }
   
+  .correct {
+    background-color: #28a745;
+  }
+  
+  .incorrect {
+    background-color: #dc3545;
+  }
