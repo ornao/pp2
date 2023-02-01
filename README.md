@@ -69,21 +69,25 @@ The goal of this project was to create an interactive and user-friendly quiz tha
 
 ### Site User
 
-1. I want to easily understand how to answer quiz
+1. I want to easily understand what the game is and how to play the game from the first page
 2. I want to have my name displayed while playing
-3. I want a leaderboard to track the highest scores 
+3. I want a leaderboard to track the highest scores for different difficuly levels
 4. I want to be able to choose from different difficulty levels
-5. I want incorrect answers to light up red and correct answers to light up green 
+5. I want incorrect answers to light up red and correct answers to light up green
 6. I want 3 guesses and for answer to then light up green so I can continue on with the quiz
 7. I want the country name I clicked incorrectly to show up on screen so I can learn from my mistakes
 8. I want to play game on phone and on laptop 
+9. I want score and question number I am on to be displayed as I play the game
+10. I want to be able to zoom into map so I am able to click correct country even if small
+11. I want play again button at end of quiz and be able to change difficulty level for new game
 
 ### Site Owner
 
-9. I want user to easily play game
-10. I want quiz be resposnsive on different devices
-11. I want a 404 page to show in case of broken link
-12. I want user to be able to challenge themselves 
+12. I want user to easily play game
+13. I want quiz be resposnsive on different devices
+14. I want a 404 page to show in case of broken link
+15. I want user to be able to challenge themselves through different difficulty levels
+16. I want user to contact me with feedback on how they found the game and how to improve
 
 ## Design
 
@@ -100,9 +104,9 @@ The structure of the website was designed to be easy to navigate.
 
 The game consist of the following screens:
 
-- A home page / start screen with instructions icon in the top line, game title and user login
-- Choose game difficulty level screen
-- Main game screen - it contains number of questions remaining in the round (progress bar), interactive map to click, current score and high score
+- A home page / start screen with game title, instructions how to play game and user login
+- Choose game difficulty level screen with name displayed in top corner of screen
+- Main game screen - it contains interactive map to click, questions clearly displayed, number of questions remaining in the round (progress bar) and current score 
 - Highscore page with most recent scores from local storage
 - The contact page with contact form which allows users to send an email to the developer and provide their feedback
 - A separate 404 error page
@@ -118,6 +122,20 @@ The game consist of the following screens:
 - JavaScript
 
 ### Frameworks, Libraries & Tools
+
+- Am I Responsive was used to create the multi-device mock-up you can see at the start of this README.md file.
+- Balsamiq to create the wireframes for the project
+- Bootstrap v5.1.3
+- EmailJS used to send email from the contact form
+- Favicon.io for making the site favicon
+- Font Awesome - Icons from Font Awesome were used throughout the site
+- Gimp and Microsoft Paint were used to create game pictures and resize background image
+- Git was used for version control within VSCode to push the code to GitHub
+- GitHub was used as a remote repository to store project code
+- Google Fonts
+- Remove.bg was used to remove background on logos
+- Chrome dev tools were used for debugging of the code and check site for responsiveness
+- WC3 Validator, Jigsaw W3 Validator, JShint, Wave Validator, Lighthouse and Am I Responsive were all used to validate the website
 
 ## Features
 
@@ -149,6 +167,15 @@ The game consist of the following screens:
 
 ### Images
 
+Interactive World Map
+
+[Simple Maps](https://simplemaps.com/resources/svg-world)
+
+
 ### Code
+
+Interactive World Map 
+
+[Make a Clickable SVG Map using HTML & CSS](https://youtu.be/l-9YQUmTOdI) 
 
 ## Acknowledgements
